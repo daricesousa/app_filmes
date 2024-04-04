@@ -1,3 +1,4 @@
+import 'package:app_filmes/app/modules/login/login_module.dart';
 import 'package:app_filmes/app/modules/splash/splash_module.dart';
 import 'package:app_filmes/firebase_options.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -25,6 +26,7 @@ class MyApp extends StatelessWidget {
       ),
       getPages: [
         ...SplashModule().routers,
+        ...LoginModule().routers,
       ],
     );
   }
