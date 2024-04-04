@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "273929999844",
+    "firebase_url": "https://app-filmes-ede10-default-rtdb.firebaseio.com",
+    "project_id": "app-filmes-ede10",
+    "storage_bucket": "app-filmes-ede10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:273929999844:android:fee23c49a8336aebdd63f1",
+        "android_client_info": {
+          "package_name": "br.com.daricesousa.app_filmes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "273929999844-porbgldtqqelkm4efijg8re7cc48c3ak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1I91mMGUHuVZk3mdstESNmOk-RUyfozI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "273929999844-porbgldtqqelkm4efijg8re7cc48c3ak.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
