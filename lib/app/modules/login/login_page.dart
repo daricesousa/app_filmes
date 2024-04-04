@@ -35,7 +35,9 @@ class LoginPage extends GetView<LoginController> {
                 width: Get.width * 0.9,
                 child: SignInButton(
                   Buttons.Google,
-                  onPressed: () {},
+                  onPressed: () {
+                    controller.login();
+                  },
                   text: "Entrar com o Google",
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(100),
